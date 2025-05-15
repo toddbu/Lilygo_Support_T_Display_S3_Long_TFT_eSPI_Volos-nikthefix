@@ -3,7 +3,7 @@
 #include "Arduino.h"
 #include "driver/spi_master.h"
 
-uint16_t* qBuffer = (uint16_t*) heap_caps_malloc(230400, MALLOC_CAP_SPIRAM ); //psram buffer for matrix rotation (640 * 180 * 2)
+uint16_t* qBuffer = (uint16_t*) heap_caps_malloc(230401, MALLOC_CAP_SPIRAM ); //psram buffer for matrix rotation (640 * 180 * 2 + 1)
 static volatile bool lcd_spi_dma_write = false;
 uint32_t transfer_num = 0;
 size_t lcd_PushColors_len = 0;

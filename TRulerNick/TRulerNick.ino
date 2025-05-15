@@ -10,7 +10,7 @@
 
   Versions:
   TFT_eSPI 2.5.34 - latest at time of writing
-  ESP32 Arduino 3.0.0-alpha3 - latest at time of writing
+  ESP32 Arduino 3.2.0 - latest at time of writing
 
   Notes:
   As the display doesn't implement a scan orientation hardware rotate - as far as I can see from the current datasheet - we need to use 
